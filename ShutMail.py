@@ -44,5 +44,5 @@ while True:
                             f = open('text.txt', 'w')
                             f.write(str(ch+1))
                             myCmd = 'shutdown /s /t 0'
-                            #os.system(myCmd)
+                            os.system(myCmd)
                             break
